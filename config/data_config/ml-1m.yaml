@@ -1,0 +1,12 @@
+base:
+  train_data_path: ./data/ml-1m/train.csv
+  valid_data_path: ./data/ml-1m/test.csv
+  item_corpus_path: ./data/ml-1m/item_corpus.csv
+  user_corpus_path: ./data/ml-1m/user_corpus.csv
+  max_item_id: 3042
+  max_user_id: 6021
+
+  batch_size: 2048
+  num_neg: 1
+  num_pos: 1
+  num_pos_user: 1

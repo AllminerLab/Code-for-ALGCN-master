@@ -1,0 +1,14 @@
+base:
+  metrics: ['Recall(k=20)', 'NDCG(k=20)','HitRate(k=20)']
+  optimizer: Adam
+  lr: 0.001
+  per_eval: 1
+  emb_lambda: 0.0001
+  gpu: 1
+  loss: PairwiseLogisticLoss
+  lossfn_temp: 1.0
+  save_model_path: "./save_model/"
+  is_pretrained: False
+  is_save_embedding: False
+  num_epochs: 1000
+  weight_decay: 0.0

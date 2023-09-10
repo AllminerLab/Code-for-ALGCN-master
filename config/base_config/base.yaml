@@ -1,0 +1,3 @@
+base:
+  batch_size: 2048
+  num_negs: 1
